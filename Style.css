@@ -4,6 +4,3 @@
     top: 0em; 
     font-size: 1.5em;
 }
-#sticky:is(:hover, :focus){
-    outline-offset: 3px;
-}
