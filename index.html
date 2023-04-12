@@ -87,5 +87,39 @@
             <p>Por fim, é fundamental que o projeto Galo Weather seja implementado de forma integrada com outras iniciativas e tecnologias já existentes na cidade, para que possa fornecer uma visão mais completa e precisa da situação das áreas afetadas pelas chuvas e contribuir para uma solução mais ampla e eficaz para as inundações em São Paulo.</p>
         </div>
 
+        <section id="section3"></section>
+        <div style="background-color: #e7efff;">
+            <p><h2>Simulação</h2></p>
+            <script src="./JS/index.js" defer></script>
+            <center>
+                <form onsubmit="validacao()">
+                    <p>Faça login</p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha">
+                    <button type="submit">Fazer login</button>
+                </form>
+                <form>
+                    <label for="cidades">Cidade</label>
+                    <select id="cidades" name="cidades" onchange="selectCidades()" disabled>
+                    <option value="fill">--Cidade--</option>  
+                    <option value="op1">Jardins</option>
+                    <option value="op2">Centro</option>
+                    <option value="op3">Aclimação</option>
+                    <option value="op4">Vila Sonia</option>
+                    </select>
+                    <p id="capacidade"></p>
+                    <p>-</p>
+                    <label for="precipitacao">Precipitação:</label>
+                    <input type="text" id="precipitacao" name="precipitacao" disabled>
+                    <p>-</p>
+                    <label for="tempo">Tempo de chuva:</label>
+                    <input type="number" id="tempo" name="tempo" disabled>
+                    <p>Menssagem de chuva forte e alagamento</p>
+                </form>
+            </center>
+        </div>
+
     </body>
 </html>
