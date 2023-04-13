@@ -2,8 +2,8 @@
 
 -----Cor-----
 
-background dark: #292929;
-background light: #e7efff;
+background dark: #161618;
+background light: #001f36;
 Color: #f3971b;
 Text color: #c2c0c3;
 #fbffcd
@@ -22,8 +22,8 @@ Text color: #c2c0c3;
 
 -----Causas-----
 Chuvas intensas
-Urbanização
-Mudanças climáticvas
+UrbanizaçãoN
+Mudanças climáticas
 Mau uso do solo
 Desmatamento
 Deficiência de drenagem
