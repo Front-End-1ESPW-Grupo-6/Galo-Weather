@@ -193,6 +193,39 @@
         </tr>
     </table>
     <!-- Fim Causas -->
+    <!-- fase final da implementaçao js -->
+    <div style="background-color: #e7efff;">
+        <p><h2>Simulação</h2></p>
+        <script src="./JS/index.js" defer></script>
+        <center>
+            <form onsubmit="validacao(event)">
+                <p>Faça login</p>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha">
+                <button type="submit">Fazer login</button>
+            </form>                
+            <form onsubmit="galoWeather(event)">
+                <label for="cidades">Cidade</label>
+                <select id="cidades" name="cidades" onchange="selectCidades()" disabled>
+                <option value="fill">--Cidade--</option>  
+                <option value="op1">Mocca</option>
+                <option value="op2">Vila Prudente</option>
+                <option value="op3">Tatuapé</option>
+                <option value="op4">Belenzinho</option>
+                </select>
+                <p id="capacidade"></p>
+                <p>-</p>
+                <label for="precipitacao">Precipitação:</label>
+                <input type="text" id="precipitacao" name="precipitacao" disabled>
+                <button type="submit">Teste</button>
+                <p>-</p>
+                <p id="resultado">Menssagem de chuva forte e alagamento</p>
+            </form>
+        </center>
+    </div>
+    <!-- FAZER ALTERAÇOES NESSA AREA -->
 
 </body>
 </html>
