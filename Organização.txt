@@ -4,7 +4,6 @@
 
 background dark: #161618;
 background light: #001f36;
-Color: #f3971b;
 Text color: #c2c0c3;
 #fbffcd
 
@@ -17,7 +16,7 @@ Text color: #c2c0c3;
 5.impactos negativos que o problema causa/impacto positivos da nossa solução
 6.Proposta de solução
 7.Quem somos
-8.Contato
+8.login
 9.Footer
 
 -----Causas-----
